@@ -1,0 +1,8 @@
+package randomWalksExtractor;
+
+public enum StepType {
+	HAS_ATTRIBUTE,
+	HAS_RELATIONSHIP,
+	HAS_INCOMING_RELATIONSHIP,
+	RELATIONSHIP_STEP
+}
