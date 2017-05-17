@@ -17,6 +17,8 @@ The code has two parts:
  - Change the path of the dataset folder to the dataset extracted.
  - Make sure to change the number of files in the dataset.
  - Run the notebook
+ - If needed, use the classify.ipynb to test some specific examples.
+### NOTE: Our executions for the report and their results can be found in the example_executions subfolder. 
 
 ## Dataset
 Since the dataset files are large, you might need to recreate them using the random_walks_extractor code above. 
