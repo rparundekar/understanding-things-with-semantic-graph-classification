@@ -1,6 +1,9 @@
 # Understanding 'Things' using Semantic Graph Classification
 The world around us contains different types of things (e.g. people, places, objects, ideas, etc.) that are defined by their attributes and relationship. To act automatically on such data, any software Agent needs to be able to infer the meaning of these things that form a Semantic Graph. Using DBpedia as an exemplary dataset, we create a robust type inferencing system in the presence of noisy data and the OpenWorld Assumption on the SemanticWeb. Our approach extracts features from the Semantic Graph using multiple Random Walks and then performs multilabel classification using Deep Neural Networks. This report presents our exploration, experimentation, and results of identifying DBpedia ontology types, categories and Yago ontology types for individuals in DBpedia. Our method consistently performs better than state-of-the-art type inferencing systems, like SDtype and SLCN, from which we conclude that Random Walk based feature extraction and multi-label classification is a promising approach in understanding things and contexts in domains that represent information as a Semantic Graph. 
 
+## Report
+You can read the Report.pdf file to understand the project and its findings in detail. 
+
 ## Code
 The code has two parts:
 1. random_walks_extractor: Java code for extracting features from RDF semantic graph
